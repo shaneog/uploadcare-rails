@@ -13,11 +13,11 @@ Gem::Specification.new do |gem|
   gem.summary       = "Rails gem for Uploadcare"
   gem.description   = <<-EOF
                         Rails wrapper for Uploadcare service.
-                        Based on uploadcare-ruby gem (https://github.com/uploadcare/uploadcare-ruby) 
+                        Based on uploadcare-ruby gem (https://github.com/uploadcare/uploadcare-ruby)
                       EOF
-  gem.metadata       =  { 
-                          "github" => "https://github.com/uploadcare/uploadcare-rails", 
-                          "issue_tracker" => "https://github.com/uploadcare/uploadcare-rails/issues" 
+  gem.metadata       =  {
+                          "github" => "https://github.com/uploadcare/uploadcare-rails",
+                          "issue_tracker" => "https://github.com/uploadcare/uploadcare-rails/issues"
                         }
   gem.homepage      = "https://uploadcare.com/documentation/libs/"
   gem.license       = "MIT"
@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   gem.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   gem.test_files = Dir["spec/**/*"]
   gem.version       = Uploadcare::Rails::VERSION
-  gem.add_dependency "rails", "~> 4.0.1"
+  gem.add_dependency "rails", "~> 4.0"
   gem.add_dependency "uploadcare-ruby", "~> 1.0"
 
   gem.add_development_dependency 'bundler', '~> 1.6'
